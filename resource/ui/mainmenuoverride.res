@@ -142,7 +142,7 @@
 				"tall"			"85"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"main_menu/news_newspaper"
+				"image"			"main_menu/war_newspaper"
 				"scaleImage"		"1"
 			}				
 			
@@ -210,7 +210,7 @@
 		"fieldName"		"ResumeGameButton"
 		"xpos"			"25"
 		"ypos"			"245"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -234,13 +234,13 @@
 		"paintbackground"	"0"
 	}
 	
-	"DisconnectButton2"
+	"DisconnectButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"DisconnectButton2"
+		"fieldName"		"DisconnectButton"
 		"xpos"			"25"
 		"ypos"			"260"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -257,11 +257,31 @@
 		"proportionaltoparent"	"1"
 		
 		"labelText"		"#GameUI_GameMenu_Disconnect"
-		"command"		"disconnect"
+		"command"		"Disconnect"
 		
 		"defaultfgColor_override"	"255 255 255 255"			
 		"armedfgColor_override"	"84 74 72 255"
 		"paintbackground"	"0"
+	}
+
+	"DisconnectBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DisconnectBackground"
+		"xpos"			"25"
+		"ypos"			"260"
+		"wide"			"160"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"1"
+
+		"bgcolor_override" "150 22 33 0"
+
+		"paintbackground"	"1"
 	}
 
 	"MutePlayersButton"
@@ -270,7 +290,7 @@
 		"fieldName"		"MutePlayersButton"
 		"xpos"			"25"
 		"ypos"			"275"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -300,7 +320,7 @@
 		"fieldName"		"DashMenu1"
 		"xpos"			"25"
 		"ypos"			"290"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -324,11 +344,11 @@
 	
 	"CharacterSetupButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"25"
-		"ypos"			"245+60"
-		"wide"			"250"
+		"ypos"			"305"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -354,11 +374,11 @@
 
 	"ViewAchievementsButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ViewAchievementsButton"
 		"xpos"			"25"
-		"ypos"			"260+60"
-		"wide"			"250"
+		"ypos"			"320"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -387,8 +407,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"25"
-		"ypos"			"275+60"
-		"wide"			"250"
+		"ypos"			"335"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -418,7 +438,7 @@
 		"fieldName"		"DashMenu2"
 		"xpos"			"25"
 		"ypos"			"350"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -442,11 +462,11 @@
 
 	"BrowseServersButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BrowseServersButton"
 		"xpos"			"25"
 		"ypos"			"305+60"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -472,11 +492,11 @@
 	
 	"CreateServerButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"CreateServerButton"
 		"xpos"			"25"
 		"ypos"			"320+60"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -502,11 +522,11 @@
 
 	"CommentaryButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"CommentaryButton"
 		"xpos"			"25"
 		"ypos"			"335+60"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -532,11 +552,11 @@
 	
 	"DashMenu3"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"DashMenu3"
 		"xpos"			"25"
 		"ypos"			"410"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -560,11 +580,11 @@
 
 	"ReportBugButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ReportBugButton"
 		"xpos"			"25"
 		"ypos"			"425"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -590,11 +610,11 @@
 
 	"QuitButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"QuitButton"
 		"xpos"			"25"
 		"ypos"			"440"
-		"wide"			"250"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"

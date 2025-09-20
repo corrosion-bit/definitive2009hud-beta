@@ -2,170 +2,91 @@
 {
 	"ResumeGameButton"
 	{
-		"ControlName" "EditablePanel"
+		"label" "#GameUI_GameMenu_ResumeGame"
+		"command" "ResumeGame"
 		"OnlyInGame" "1"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_ResumeGame"
-			"command" "ResumeGame"
-			"OnlyInGame" "1"
-		}
 	}
 	
 	"DisconnectButton"
 	{
-		"ControlName" "EditablePanel"
+		"label" "#GameUI_GameMenu_Disconnect"
+		"command" "Disconnect"
 		"OnlyInGame" "1"
-		
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_Disconnect"
-			"command" "Disconnect"
-
-		}
 	}
 	
 	"MutePlayersButton"
 	{
-		"ControlName" "EditablePanel"
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_PlayerList"
-			"command" "OpenPlayerListDialog"
-			"OnlyInGame" "1"
-		}
+		"label" "#GameUI_GameMenu_PlayerList"
+		"command" "OpenPlayerListDialog"
+		"OnlyInGame" "1"
 	}
 	
 	"DashMenu1"
 	{
-		"ControlName" "EditablePanel"
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "------------------------"
-			"OnlyInGame" "1"
-		}
+		"label" "------------------------"
+		"OnlyAtMenu"	"0"
 	}
 	
 	"CharacterSetupButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_CharacterSetup"
-			"command" "engine open_charinfo"
-		}
+		"label" "#GameUI_GameMenu_CharacterSetup"
+		"command" "engine open_charinfo"
+		"OnlyAtMenu"	"1"
 	}
 	
 	"ViewAchievementsButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_Achievements"
-			"command" "OpenAchievementsDialog"
-		}
+		"label" "#GameUI_GameMenu_Achievements"
+		"command" "OpenAchievementsDialog"
+		"OnlyAtMenu"	"1"
 	}
 	
 	"SettingsButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_Options"
-			"command" "OpenOptionsDialog"
-		}
+		"label" "#GameUI_GameMenu_Options"
+		"command" "OpenOptionsDialog"
+		"OnlyAtMenu"	"1"
 	}
 	
 	"DashMenu2"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "------------------------"
-		}
+		"label" "------------------------"
+		"OnlyAtMenu"	"0"
 	}
 	
 	"BrowseServersButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_FindServers" 
-			"command" "OpenServerBrowser"
-		}
+		"label" "#GameUI_GameMenu_FindServers" 
+		"command" "OpenServerBrowser"
 	}
 	
 	"CreateServerButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_CreateServer"
-			"command" "OpenCreateMultiplayerGameDialog"
-		}
+		"label" "#GameUI_GameMenu_CreateServer"
+		"command" "OpenCreateMultiplayerGameDialog"
 	}
 	
 	"CommentaryButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label"	"#GameUI_LoadCommentary"
-			"command" "OpenLoadSingleplayerCommentaryDialog"
-		}
+		"label"	"#GameUI_LoadCommentary"
+		"command" "OpenLoadSingleplayerCommentaryDialog"
 	}
 	
 	"DashMenu3"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "------------------------"
-		}
+		"label" "------------------------"
+		"OnlyInGame"	"1"
 	}
 	
 	"ReportBugButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_ReportBug"
-			"command" "engine bug"
-		}
+		"label" "#GameUI_ReportBug"
+		"command" "engine bug"
 	}
 	
 	"QuitButton"
 	{
-		"ControlName" "EditablePanel"
-
-		"SubButton"
-		{
-			"ControlName" "CExImageButton"
-			"label" "#GameUI_GameMenu_Quit"
-			"command" "Quit"
-		}
+		"label" "#GameUI_GameMenu_Quit"
+		"command" "Quit"
 	}		
 }

@@ -1598,7 +1598,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"122"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"		
 		"wide"			"480"
